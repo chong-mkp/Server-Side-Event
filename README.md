@@ -1,17 +1,17 @@
+# About
+Server side event example on Django and Graphql
+
+
 # To install
 ```
-pip3 install django graphene-django channels
+pip3 install django graphene-django
 ```
 
 # To run server
 ```
+python3 manage.py makemigrations sse_app
+python3 manage.py migrate
 python3 manage.py runserver
-```
-
-
-# To access GraphQL Playground
-```
-http://127.0.0.1:8000/graphql/
 ```
 
 # To view the server-sent events in action
@@ -19,6 +19,10 @@ http://127.0.0.1:8000/graphql/
 http://127.0.0.1:8000/events/
 ```
 
+# To access GraphQL Playground
+```
+http://127.0.0.1:8000/graphql/
+```
 
 # To add example modal
 ```

@@ -125,16 +125,5 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 GRAPHENE = {
-    'SCHEMA': 'sse_app.schema.schema'  # Where your GraphQL schema lives
+    'SCHEMA': 'sse_app.schema.schema'
 }
-
-# ASGI_APPLICATION = 'sse_proj.asgi.application'
-
-
-# INSTALLED_APPS += ['channels']
-# ASGI_APPLICATION = 'sse_proj.asgi.application'
-# CHANNEL_LAYERS = {
-#     "default": {
-#         "BACKEND": "channels.layers.InMemoryChannelLayer"
-#     },
-# }
